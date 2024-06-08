@@ -1,7 +1,7 @@
 {
   "name": "mao-poem",
   "version": "1.0.0",
-  "description": "使用毛泽东诗词学习原生TypeScript",
+  "description": "用毛泽东诗词学习搭建原生TypeScript项目",
   "author": "hyoryu (https://setsuikihyoryu.github.io)",
   "license": "ISC",
   "main": "index.html",
