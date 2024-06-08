@@ -7,9 +7,14 @@
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
-    "build": "npx tsc"
+    "build": "rm -rf dist-tsc/* && npx tsc && npx webpack"
   },
   "devDependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

@@ -1,3 +1,1 @@
-import { titleElement } from './title';
-const main = document.querySelector('#main');
-main.appendChild(titleElement);
+(()=>{"use strict";var e={947:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.authorElement=void 0;const n=document.createElement("p");t.authorElement=n,n.textContent="毛泽东"},272:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.titleElement=void 0;const n=document.createElement("h1");t.titleElement=n,n.textContent="七律・和郭沫若同志"}},t={};function n(o){var r=t[o];if(void 0!==r)return r.exports;var l=t[o]={exports:{}};return e[o](l,l.exports,n),l.exports}(()=>{const e=n(272),t=n(947),o=document.querySelector("#main");o.appendChild(e.titleElement),o.appendChild(t.authorElement)})()})();
