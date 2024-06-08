@@ -1,6 +1,7 @@
-const author = '毛泽东'
+const AUTHOR_CONTENT = '毛泽东'
 
-const authorElement = document.createElement('p')
-authorElement.textContent = author
+const author = document.createElement('p')
+author.textContent = AUTHOR_CONTENT
+author.style.textAlign = 'right'
 
-export { authorElement }
+export { author }

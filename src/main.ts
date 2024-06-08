@@ -1,7 +1,14 @@
-import { titleElement } from '@/components/title'
-import { authorElement } from '@/components/author'
+import { title } from '@/components/title'
+import { author } from '@/components/author'
+import { body } from '@/components/body'
 
 const main = document.querySelector('#main')!
 
-main.appendChild(titleElement)
-main.appendChild(authorElement)
+const wrapper = document.createElement('div')
+wrapper.style.width = '300px'
+
+wrapper.appendChild(title)
+wrapper.appendChild(author)
+wrapper.appendChild(body)
+
+main.appendChild(wrapper)

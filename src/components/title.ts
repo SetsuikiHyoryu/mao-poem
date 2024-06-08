@@ -1,6 +1,7 @@
-const title = '七律・和郭沫若同志'
+const TITLE_CONTENT = '七律・和郭沫若同志'
 
-const titleElement = document.createElement('h1')
-titleElement.textContent = title
+const title = document.createElement('h1')
+title.textContent = TITLE_CONTENT
+title.style.textAlign = 'center'
 
-export { titleElement }
+export { title }

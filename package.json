@@ -7,7 +7,7 @@
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
-    "build": "rm -rf dist-tsc/* && npx tsc && npx webpack"
+    "build": "npx tsc && npx webpack"
   },
   "devDependencies": {
     "typescript": "^5.4.5",
